@@ -1,0 +1,16 @@
+{
+  	"": null,
+	"welcome":"Welcome to SPAIN PODCAST PREMIUM!",
+	"back":"Back",
+	"menu.home":"Home",
+	"menu.user":"User",
+	"menu.content":"Contents",
+	"menu.podcast":"Podcast",
+	"languages":"Select language",
+	"languages.es":"Spanish",
+	"languages.en":"English",
+	"register.register":"Register",
+    "register.identify":"Identify",
+    "register.modify":"Modify",
+    "register.query":"Query"
+}
