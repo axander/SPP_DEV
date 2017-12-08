@@ -2,6 +2,8 @@
   	"": null,
 	"welcome":"Bienvenido a SPAIN PODCAST PREMIUM!",
 	"back":"Volver",
+	"login":"Login",
+	"initSession":"Iniciar Sesión",
 	"menu.home":"Home",
 	"menu.user":"Usuario",
 	"menu.content":"Contenidos y Listados",

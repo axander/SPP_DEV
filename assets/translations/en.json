@@ -2,6 +2,8 @@
   	"": null,
 	"welcome":"Welcome to SPAIN PODCAST PREMIUM!",
 	"back":"Back",
+	"login":"Login",
+	"initSession":"Init Session",
 	"menu.home":"Home",
 	"menu.user":"User",
 	"menu.content":"Contents",
