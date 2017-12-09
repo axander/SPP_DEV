@@ -1,5 +1,9 @@
 {
   	"": null,
+  	"user":"user",
+  	"password":"password",
+  	"register.recoverPwd":"Forgot password ?",
+  	"register.recoverPwd.rot":"Password recovering",
 	"welcome":"Welcome to SPAIN PODCAST PREMIUM!",
 	"back":"Back",
 	"login":"Login",

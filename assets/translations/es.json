@@ -1,5 +1,9 @@
 {
   	"": null,
+  	"user":"usuario",
+  	"password":"contraseña",
+  	"register.recoverPwd":"¿ Olvidaste tu contraseña ?",
+  	"register.recoverPwd.rot":"Recuper contraseña",
 	"welcome":"Bienvenido a SPAIN PODCAST PREMIUM!",
 	"back":"Volver",
 	"login":"Login",
