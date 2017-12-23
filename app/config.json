@@ -1,0 +1,9 @@
+{
+	"data":{
+		"mocks":true,
+		"extLogin":false,
+		"mocksPath":"assets/mocks/",
+		"endpoint":"",
+		"partialPath":""
+	}
+}

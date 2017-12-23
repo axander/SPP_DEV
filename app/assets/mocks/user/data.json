@@ -1,0 +1,145 @@
+{
+	"data":{
+		"history":[
+			{
+				"date":"2017-12-12",					
+				"mili":0,					
+				"device":"",						
+				"detection":"",								
+				"action":[
+
+				]
+			}
+		],
+		"personalData":{
+			"id":"",
+			"date":"2017-12-12",						
+			"mili":0,					
+			"status":1,								
+			"avatar":"xxxxxx.png",					
+			"email":"xxx@xx.xx",				
+			"name":"",
+			"nickName":"",
+			"password":"",
+			"surname":"",
+			"phone":"",
+			"address":"",
+			"number":"xxxxxxx",						
+			"floor":8,								
+			"door":"",							
+			"apartment":304,						
+			"city":"",
+			"country":"",
+			"cp":0,							
+			"zip":"xxxxx",						
+			"countryCode":""				
+		},
+		"sessionData":{		
+											
+		},
+		"paymentData":{
+			"accountData":{									
+
+			},
+			"cardData":{									
+
+			},
+			"codesTo":[											
+				{ 
+					"id":"",
+					"status":0,						
+					"deferred":"xxx@xx.xx"		
+
+				}
+			],
+			"payments":[										
+				{ 
+					"id":"", 
+					"status":""
+				}
+			],
+			"subscription":{
+				"type":{
+					"basic":{ 
+						"id":"",
+						"status":1,					
+						"date":"2017-12-12",			
+						"mili":0,			
+						"code":""					
+					},
+					"invited":{
+						"id":"",
+						"status":0,					
+						"date":"2017-12-12",			
+						"mili":0,			
+						"code":""					
+					},
+					"premium":{
+						"id":"",
+						"status":0,					
+						"date":"2017-12-12",			
+						"mili":0,		
+						"code":""					
+					}
+				}
+			}
+		},
+		"listData":{							
+			"later":{											
+				"podcast":[
+					{"id":"", "col":[]}
+				],
+				"program":[
+					{"id":"", "col":[]}
+				],
+				"canal":[
+					{"id":"", "col":[]}
+				]
+			},
+			"fav":{												
+				"podcast":[
+					{"id":"", "col":[]}
+				],
+				"program":[
+					{"id":"", "col":[]}
+				],
+				"canal":[
+					{"id":"", "col":[]}
+				]
+			},
+			"subscriptions":{									
+				"podcast":[
+					{"id":"", "col":[]}
+				],
+				"program":[
+					{"id":"", "col":[]}
+				],
+				"canal":[
+					{"id":"", "col":[]}
+				]
+			},
+			"history":{											
+				"podcast":[
+					{"id":"", "col":[]}
+				],
+				"program":[
+					{"id":"", "col":[]}
+				]
+			},
+			"download":{										
+				"podcast":[
+					{"id":"", "col":[] }
+				],
+				"canal":[
+					{"id":"", "col":[]}
+				]
+			},
+			"devices":[											
+				{"id":""}
+			],
+			"detection":[										
+				{"id":""}
+			]
+		}
+	}
+}
