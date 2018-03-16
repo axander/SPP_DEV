@@ -1,0 +1,124 @@
+.opinion{
+    position: relative;
+	height:auto;
+	font-size:20px;
+	text-align:center;
+	padding:50px;
+	padding-top:100px;
+	background:#333;
+	.spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+	.opinion_count{
+		  float:left;
+		  /*font-family: Avenir;*/
+		  font-size: 30px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.17;
+		  letter-spacing: normal;
+		  text-align: left;
+		  color: #ffffff;
+	}
+	.opinion_advice{
+		float: right;
+	    text-align: left;
+	    padding-bottom: 60px;
+		/*font-family: Avenir;*/
+		font-size: 12px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+	}
+	.opinion_advice_email{
+		color:red;
+	}
+	.opinion_advice_email:hover{
+		opacity:.5;
+	}
+	.opinion_author_deco{
+		position: absolute;
+	    right: -5px;
+	    top: 10px;
+	    text-align: right;
+	}
+	.opinion_author{
+		float:left;
+		.opinion_author_avatar{
+			display:inline-block;
+			width:35px;
+			height:35px;
+			background-color:#fff;
+			border-radius:80px;
+			margin-right: 14px;
+			background-size: cover !important;
+		}
+        .opinion_author_data{
+        	display:inline-block;
+         	.opinion_author_data_name{
+			  /*font-family: Avenir;*/
+			  font-size: 14px;
+			  font-weight: 900;
+			  font-style: normal;
+			  font-stretch: normal;
+			  line-height: normal;
+			  letter-spacing: normal;
+			  text-align: left;
+         	}
+            .opinion_author_data_date{
+            	/*font-family: Avenir;*/
+			  	font-size: 12px;
+			  	font-weight: normal;
+			  	font-style: normal;
+			  	font-stretch: normal;
+			  	line-height: normal;
+			  	letter-spacing: normal;
+			  	text-align: left;
+			  	color: #9b9b9b;
+            }
+        }
+               
+	}
+	.opinion_text{
+		width:100%;
+		height:auto;
+		background:#fff;
+		padding:50px;
+		margin-bottom: 40px;
+		/*font-family: Avenir;*/
+  		font-size: 14px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.36;
+		  letter-spacing: normal;
+		  text-align: left;
+		  color: #4a4a4a;
+	}
+	.opinion_button{
+		float: right;
+	    width: 141px;
+	    height: 50px;
+	    border-radius: 52px;
+	    border: 5px solid #000;
+	    margin: 10px;
+	    text-align: center;
+	    padding: 10px;
+	    cursor: pointer;
+	}
+	.opinion_button:hover{
+	  opacity:.5;
+	}
+}
+@media screen and (max-width: 990px){
+   .opinion .opinion_author_deco {
+	    display:none;
+	}
+}

@@ -1,0 +1,63 @@
+.most_listened{
+    position: relative;
+	height:300px;
+	margin-top:50px;
+	.row{
+		margin:0;
+		[class*="col-"] {
+		    padding:0;
+		}
+	}
+	h1{
+		margin-bottom:50px;
+	}
+	.spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+	
+}.most_listened_podcasts{
+	display:inline-block;
+    width: 80%;
+    margin-bottom:50px;
+	.most_listened_item{
+		cursor:pointer;
+		float: left;
+		width:50%;
+		.most_listened_item_content{
+			display:table;
+			width:100%;
+			height:100%;
+			.most_listened_item_item_PB{
+				display:table-cell;
+				width:100%;
+				height:100%;
+				text-align:center;
+				vertical-align:middle;
+				.most_listened_item_item_PB_deco{
+					display: inline-block;
+				    width: 50px;
+				    height: 50px;
+				    border: 3px solid #fff;
+				    border-radius: 50px;
+				    padding-left: 5px;
+				    line-height: 45px;
+				    text-align: center;
+				    font-size: 30px;
+				}
+			}
+		}
+		
+	}.most_listened_item:hover{
+		opacity:.5;
+	}
+}.most_listened_ads{
+	cursor:pointer;
+	display:inline-block;
+	width: 100%;
+}.most_listened_ads:hover{
+	opacity:.5;
+}

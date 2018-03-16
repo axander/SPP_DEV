@@ -1,0 +1,94 @@
+.podcast{
+	.row{
+		margin:0;
+		padding:0;
+		[class*=' col-']{
+			margin:0;
+			padding:0;
+		}
+	}
+	.item_origen{
+		position: absolute;
+	    top: 30px;
+	    padding: 10px;
+	    font-size: 12px;
+	    text-align: left;
+	}
+	.options{
+		div{
+			cursor:pointer;
+			display:inline-block;
+			padding: 4px;
+			div{
+				img{
+					width:20px;
+				}
+			}
+			;:hover{
+				opacity:.5;
+			}
+		}
+	}
+	.item_info{
+		div{
+			display: inline-block;
+		    padding: 2px;
+		    padding-bottom: 6px;
+			div{
+				img{
+					width:20px;
+				}
+			}
+			;:hover{
+				opacity:.5;
+			}
+		}
+	}
+	.item_container_to_lists{
+		background: #222;
+	    height: 300px;
+	    padding-top: 40px;
+	    position: absolute;
+	    width: 100%;
+	    left:0;
+		.item_container_to_lists_item{	
+			cursor:pointer;
+			margin-left: 20px;
+		    margin-right: 20px;
+		    text-align: left;
+		    padding: 20px;
+		    color: #fff;
+		    border-bottom: 1px solid #444;
+		}
+		.item_container_to_lists_item:nth-child(4){	
+		    border-bottom: 0;
+		}
+		.item_container_to_lists_item:hover{
+			opacity:.5;
+		}
+		.item_container_to_lists_close{
+			cursor: pointer;
+		    position: absolute;
+		    top: 10px;
+		    right: 10px;
+		    padding: 10px;
+		    float: right;
+		}
+		.item_container_to_lists_close:hover{
+			opacity:.5;
+		}
+	}
+	.ListSchemma{
+		display:none;
+		.show{
+			position: absolute;
+		    z-index: 20;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    color: #444;
+			display:inline-block;
+		}
+	}
+}

@@ -1,0 +1,270 @@
+{
+	"status":"successfull",
+	"reason":"successfull",
+	"data":{
+		"collection":[
+			{	
+				"title":{
+					"es":"Ejemplo 3",
+					"en":"Example 3"
+				},
+				"subtitle":{
+					"es":"Color de fondo sin imagen, mostrando player con podcast.",
+					"en":"Backgroun color, no image. Routing to a podcast player."
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"",
+						"podcast":{
+							"id":"XXXXX0",
+							"name":{
+								"es":"TONI NADAL: ‘EL ESFUERZO DIARIO, EL QUERER SER LOS MEJORES, ES LO QUE ME HA HECHO FELIZ’",
+								"en":"TONI NADAL: ‘En Ingles’"
+							},
+							"desc":{
+								"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+								"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+							},
+							"image":"https://source.unsplash.com/2073x696/?nature",
+							"source":"http://clipbloc.com/SPP_DEV/static/FORBES DAILY MEDIALAB PRADO.mp3",
+							"type":"public"
+						},
+						"text":{
+							"es":"Escuchar ahora",
+							"en":"Play now"
+						}
+					}
+				],
+				"style":{
+					"background":"blue",
+					"height":"100%",
+					"background-image":"",
+					"height": "470px",
+				    "background-repeat": "no-repeat",
+				    "background-size": "cover",
+				    "background-position": "center center"
+				}
+			},
+			{
+				"title":{
+					"es":"Ejemplo 1",
+					"en":"Example 1"
+				},
+				"subtitle":{
+					"es":"Color de fondo sin imagen, enrutando al listado de podcasts de un programa.",
+					"en":"Backgroun color, no image. Routing to a program podcast list."
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"podcast/FORBESDAILY/Nombre del programa",
+						"podcast":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"red",
+					"height":"470px",
+					"background-image":"",
+					"height": "470px",
+				    "background-repeat": "no-repeat",
+				    "background-size": "cover",
+				    "background-position": "center center"
+				}
+			},
+			{	
+				"title":{
+					"es":"Ejemplo 2",
+					"en":"Example 2"
+				},
+				"subtitle":{
+					"es":"Imagen de fondo con link a url externa.",
+					"en":"Background Image and external Link"
+				},
+				"buttons":[
+					{	
+						"externalLink":"https://mauiwhalefestival.org",
+						"route":"",
+						"podcast":null,
+						"text":{
+							"es":"Ir a la web",
+							"en":"Visit web"
+						}
+					}
+				],
+				"style":{
+					"background":"blue",
+					"height":"100%",
+					"background-image":"url(https://mauiwhalefestival.org/sites/mauiwhalefestival.org/files/imagecache/homepage_slide/MWF-2018_Website_Homepage-Banner-web.jpg)",
+					"height": "470px",
+				    "background-repeat": "no-repeat",
+				    "background-size": "cover",
+				    "background-position": "center center"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"https://mauiwhalefestival.org",
+						"route":"",
+						"podcast":null,
+						"text":{
+							"es":"Ir a web",
+							"en":"Go Link"
+						}
+					},
+					{	
+						"externalLink":"",
+						"route":"podcast/FORBESDAILY/Nombre del programa",
+						"podcast":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"height":"100%",
+					"background-image":"url(http://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDQj7Qij_WMs1yiPiHoBvJoB9wzaXIaKKw6NCjrra0ZohLV4TKlAhdymm5Itun_41jU3ilG8iQgTrN4UHLadhlXzYSgXAlRVXJfH5jGMt_beuNjG6xJoT97yLqvNDDoNc_ISqlRfeBzds1TGFleBZ7OD2AsqxBlJtyIiesDm/)",
+					"height": "470px",
+				    "background-repeat": "no-repeat",
+				    "background-size": "cover",
+				    "background-position": "center center"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"favourites",
+						"podcast":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"height":"100%",
+					"background-image":"url(http://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDQi-5dzrH-aVjSaZjwLRVS9TeEgCnSdTLx04bqwof7scDe0pez8XsGAkVi-Z4FdpLn5-eJIv-s9_e9DuaupLabv3XZTTHacYf3gl3UCafPUi01vTQYfGaeOSkp1fY_7U24jzLnH8t1komDsfOOQMs-mXFaASqlCffW5LAw_/)",
+					"height": "470px",
+				    "background-repeat": "no-repeat",
+				    "background-size": "cover",
+				    "background-position": "center center"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"favourites",
+						"podcast":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"height":"100%",
+					"background-image":"url(https://mauiwhalefestival.org/sites/mauiwhalefestival.org/files/imagecache/homepage_slide/MWF-2018_Website_Homepage-Banner-web.jpg)",
+					"height": "470px",
+				    "background-repeat": "no-repeat",
+				    "background-size": "cover",
+				    "background-position": "center center"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"favourites",
+						"podcast":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"height":"100%",
+					"background-image":"url(https://d3jkudlc7u70kh.cloudfront.net/amazing-blue-whale-fact.jpg)",
+					"height": "470px",
+				    "background-repeat": "no-repeat",
+				    "background-size": "cover",
+				    "background-position": "center center"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"favourites",
+						"podcast":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"height":"100%",
+					"background-image":"url(https://d3jkudlc7u70kh.cloudfront.net/fun-whale-breaching-fact.jpg)",
+					"height": "470px",
+				    "background-repeat": "no-repeat",
+				    "background-size": "cover",
+				    "background-position": "center center"
+				}
+			}
+		]
+	}
+}
