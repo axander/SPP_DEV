@@ -1,0 +1,87 @@
+audio, canvas, progress, video {
+    vertical-align: top;
+    width: 100%;
+}
+progress[value] {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    /* border-radius: 8px; */
+}
+progress[value]::-webkit-progress-value {
+	background:#fff;
+	border-radius: 4px; 
+  	/*background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+
+    
+    background-size: 35px 20px, 100% 100%, 100% 100%;*/
+}
+/*progress[value]::-webkit-progress-bar {
+	background-color: #fff;
+}
+progress[value]::-webkit-progress-value {
+	background-color: #fff;
+} 
+progress[value]::-moz-progress-bar {
+	background-color: #fff;
+}*/
+.player-face{
+	background: #ff0002;
+    padding: 15px;
+    text-align: center;
+    .player-face-url{
+    	font-size:10px;
+    }
+	.previous2,.play,.pause,.backward,.forward2, .time_played, .progression, .duration ,.volume{
+		cursor:pointer;
+		display:inline-block;
+		padding-left: 10px;
+    	padding-right: 10px;
+    	img{
+    		width:50%;
+    	}
+	}
+	.previous2,.backward,.forward2, .time_played, .progression, .duration ,.volume{
+		img{
+    		width:70%;
+    		opacity:.5;
+    	}
+	}
+	.play,.pause{
+		img{
+    		width:85%;
+    	}
+	}
+	.previous2:hover,.play:hover,.pause:hover,.backward:hover,.forward2:hover, .time_played:hover, .progression:hover, .duration:hover ,.volume:hover{
+		opacity:.5;
+	}
+	.progression{
+	    width: 100%;
+	    background: #cc2020;
+	    border-radius: 13px;
+	    height: 5px;
+	    margin-top: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    position: relative;
+	    top: -2px;
+	    input[type=range] {
+		    -webkit-appearance: media-slider;
+		    display: block;
+		    width: 100%;
+		    background: transparent;
+		}
+	    .progression-seek{
+			position: absolute;
+		    top: 0;
+		}
+	}
+}

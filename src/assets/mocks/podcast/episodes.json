@@ -1,0 +1,52 @@
+{
+    "status": "success",
+    "reason": "",
+    "total": 2,
+    "perPhase": 10,
+    "result": [
+        {
+            "id": 8,
+            "name": "Prueba a ver que pasa con la imagen",
+            "description": "dsfasdf asdfd fasf dsaf dsaf asdf ",
+            "slug": "prueba-a-ver-que-pasa-con-la-imagen",
+            "file": "uploads/episodes/episode-hnLu0IeBRx.mp3",
+            "image": "",
+            "active": true,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 654,
+            "date": "2018-03-22 03:45",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        },
+        {
+            "id": 6,
+            "name": "gsfdgsdfg",
+            "description": "fsdgfsdgsdfgdf",
+            "slug": "gsfdgsdfg",
+            "file": "/tmp/phpPR7uM5",
+            "image": "uploads/episodes/episode-ZsJiSsGgmg.png",
+            "active": true,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 1,
+            "duration": 520,
+            "date": "2018-03-20 10:21",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        }
+    ]
+}

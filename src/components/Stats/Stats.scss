@@ -1,0 +1,22 @@
+.item_stats{
+	padding-bottom:5px;
+	.item_stats_container{
+		 .item_stats_container_elem{
+		 	div{
+		 		display:inline-block;
+		 		div{
+		 			display:inline-block;
+		 		}
+		 	}
+			display:inline-block;
+			height:40px;
+		}
+	}
+	
+}
+@media screen and (max-width: 992px){
+   .item_stats{
+   		width: 100%;
+    	text-align: center;
+   }
+}

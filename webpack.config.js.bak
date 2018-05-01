@@ -1,0 +1,83 @@
+const path = require('path');
+const autoprefixer = require('autoprefixer');
+const webpack = require('webpack');
+
+
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+process.env.NODE_ENV = 'development';
+
+
+
+module.exports = {
+	cache: true,
+	debug: true,
+	devtool: 'source-map',
+	entry: "./src/index.jsx",
+    output: {
+       	path: path.resolve('build'),
+		filename: 'static/js/bundle.js',
+		sourceMapFilename: 'bundle.map',
+		publicPath: '/'
+    },
+    devServer: {
+		port: 3333,
+        contentBase: "./dist",
+    },
+    plugins: [
+		new HtmlWebpackPlugin({
+			inject: true,
+			template: path.resolve('public/index.html'),
+		}),
+		new webpack.HotModuleReplacementPlugin(),
+	],
+
+    module: {
+        loaders: [
+	        {
+				exclude: [
+					/\.html$/,
+					/\.(js|jsx)$/,
+					/\.scss$/,
+					/\.css$/,
+					/\.json$/,
+					/\.svg$/
+				],
+				loader: 'url-loader',
+				query: {
+					limit: 10000,
+					name: 'static/media/[name].[hash:8].[ext]'
+				}
+			},
+            {
+                test: /\.(js|jsx)$/,
+	        	loader: 'babel-loader',
+	        	exclude: /node_modules/,
+	        	query: {
+	          		presets: ['es2015', "es2016",'react']
+	          	}
+            },
+            {
+			   test: /\.css$/,
+			   exclude: [
+					/\.html$/,
+					/\.(js|jsx)$/,
+					/\.json$/,
+					/\.svg$/,
+					/\.scss$/
+				],
+			   loader: [
+			     'css-loader','style-loader'
+			   ]
+			},
+			{
+		        test: /\.scss$/,
+		        use: ['css-loader', 'sass-loader']
+		    }
+        ]
+    },
+	node: {
+	   fs: "empty"
+	}
+
+};
